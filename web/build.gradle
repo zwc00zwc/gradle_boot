@@ -1,0 +1,9 @@
+
+apply plugin: 'org.springframework.boot'
+
+dependencies {
+    compile project(':domain')
+    compile('org.springframework.boot:spring-boot-starter')
+    compile('org.springframework.boot:spring-boot-starter-actuator')
+    compile('org.springframework.boot:spring-boot-starter-web')
+}
